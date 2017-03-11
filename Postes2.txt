@@ -1,0 +1,25 @@
+1. Ubah bahasa Prolog berikut menjadi bahasa natural:
+  
+  a. orang(dian).         => dian merupakan orang.
+  b. mobil(atoz).         => atoz merupakan merk mobil
+  c. suka(dian, atoz)).   => dian suka dengan atoz
+  d. dijual(atoz).        => atoz dijual
+  e. dapat_membeli(X,Y):- => X dapat dibeli Y, jika X
+     orang(X),               merupakan orang,Y merupakan merk mobil,
+     mobil(Y),               dengan X suka mobil Y, dan Y telah dijual,
+     suka(X,Y),              dengan begitu setiap orang suka dengan Apa(mobil)?. 
+     dijual(Y).              
+  f. suka(_,Apa).           =>
+ 
+2. Ubah bahasa natural berikut menjadi bahasa Prolog:
+   
+   a. Ricky mempunyai hobi bermain catur.            => Hobi (ricky, catur).
+   b. Embang orangnya pemalas.                       => Pemalas (embang) .
+   c. Yusida seorang vegetarian.                     => Vegertarian (Yusida).
+   d. Kusdiar pandai bermain gitar.                  => Pandai(kusdiar,gitar) .
+   e. Mobil yang berwarna merah itu milik Sadek, bermerk BMW. => Mobil (sadek, merah) dan mobil(sadek, bmw) .
+   f. Awan seorang pemain piano, berasal dari Pontianak bersuku Jawa. => Pemain_piano(awan) dan pontianak(asal); jawa (suku) .
+   g. Seseorang dikatakan baik jika mempunyai sifat penyayang dan dermawan. => Baik (orang) :- sifat (penyayang,dermawan).
+   h. Seseorang dikatakan pintar jika salah satu dari Matematika atau IPA atau IPS mendapat nilai tinggi. => Pintar (orang) :- mendapat_nilai_tinggi (matematika) ; 
+                                                                                                             mendapat_nilai_tinggi (ipa); mendapat_nilai_tinggi (ips)
+   i. Setiap orang pasti mati. => Orang (setiap,mati) .
